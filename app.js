@@ -26,6 +26,7 @@ if (score >= 80) {
   console.log(`${score}点、また来年`);
 }
 
+// if と forの練習
 for (let i = 1; i <= 30; i++) {
   if (i % 3 == 0){
     console.log('あほ');
@@ -33,3 +34,18 @@ for (let i = 1; i <= 30; i++) {
     console.log(i);
   }
 }
+
+
+// ５の倍数と３の倍数のときにメッセージ
+// console.log
+// それ以外は数字
+// 1〜１００まで
+
+for (let i = 1; i <= 100; i ++){
+  if(i % 5 == 0 || i % 3 == 0){
+    console.log('綺麗');
+  }else {
+    console.log(i);
+  }
+}
+

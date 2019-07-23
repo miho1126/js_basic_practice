@@ -36,7 +36,7 @@ for (let i = 1; i <= 30; i++) {
 }
 
 
-// ５の倍数と３の倍数のときにメッセージ
+// ５の倍数と３の倍数のときにメッセージ　（もしくは。。）
 // console.log
 // それ以外は数字
 // 1〜１００まで
@@ -49,3 +49,20 @@ for (let i = 1; i <= 100; i ++){
   }
 }
 
+// 3で割り切れるときはFizz
+// 5で割り切れるときはBuzz
+// 両方で割り切れるときはFizzBuzz
+// それ以外は１〜１００まで
+// 値はconsole.logで出力
+
+for (let i = 1; i <= 100; i ++){
+  if(i % 3 == 0 && i % 5 == 0 ){
+    console.log('FizzBuzz');
+  }else if (i % 3 ==0){
+    console.log('Fuzz');
+  }else if (i % 5 == 0){
+    console.log('Buzz')
+  }else {
+    console.log(i)
+  }
+}

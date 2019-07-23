@@ -66,3 +66,26 @@ for (let i = 1; i <= 100; i ++){
     console.log(i)
   }
 }
+
+// 優先されるものが最初、
+// else if は何個も作れる。
+// else if (値){}
+// else は数字のみ
+// メモ書きで優先順位を考えていく。
+
+for(let i = 1; i <= 100; i++) {
+  switch(0){
+    case i % 15:
+      console.log('FizzBuzz');
+      break;
+    case i % 5:
+      console.log('Buzz');
+      break;
+    case i % 3:
+      console.log('Fizz');
+      break;
+    default:
+      console.log(i);
+      break;
+  }
+}

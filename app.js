@@ -25,3 +25,11 @@ if (score >= 80) {
 } else {
   console.log(`${score}点、また来年`);
 }
+
+for (let i = 1; i <= 30; i++) {
+  if (i % 3 == 0){
+    console.log('あほ');
+  }else{
+    console.log(i);
+  }
+}

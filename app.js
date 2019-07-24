@@ -155,4 +155,17 @@ getAge(1980);
 
 getAge(1986);
 
+// 1~100の繰り返し処理
+// nで割り切れる数だけを出力する関数を作る。　
+// 出力はconsole.log
+
+function calc(n){
+  for(let index = 1; index <= 100; index++){
+    if(index % n === 0){
+      console.log(index)
+    }
+  }
+}
+
+calc(15)
 

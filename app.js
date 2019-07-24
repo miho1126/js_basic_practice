@@ -167,5 +167,5 @@ function calc(n){
   }
 }
 
-calc(15)
+calc(40)
 
